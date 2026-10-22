@@ -1,27 +1,27 @@
 # 龙门骰
 
-龙门骰的独立版本发布仓库，用于下载安装包、查看更新说明，以及为后续客户端更新提供固定渠道。
+龙门骰的独立版本发布与更新仓库。
 
-## 下载 M5.3.1
+## 下载 M5.4
 
-- [安卓安装包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.3.1/longmen-dice-M5.3.1-android.apk)：下载后安装，可使用原签名覆盖旧版。
-- [Windows 便携包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.3.1/longmen-dice-M5.3.1-windows.zip)：完整解压后双击 `START_GAME.cmd`，无需另外安装 Godot。
-- [全部版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases)
+- [Android 安装包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.4/longmen-dice-M5.4-android.apk)：下载后按系统提示覆盖安装。
+- [Windows 便携包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.4/longmen-dice-M5.4-windows.zip)：完整解压后双击 `START_GAME.cmd`，无需另外安装 Godot。
+- [全部版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases)；[M5.3.1 历史版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.3.1)。
 
-联机双方请使用同一版本。Windows 与安卓可在彼此网络地址可达时联机。
+联机双方请使用同一版本。Windows 与 Android 可在网络地址彼此可达时联机。
+
+## 自动检查与一键更新
+
+M5.4 起可在主菜单、设置中“检查更新”，启动时也会自动检查。Windows 下载并校验更新包后安装、重启；Android 会打开浏览器下载新版 APK，再按系统流程覆盖安装。对局期间不会自动替换游戏文件。
+
+M5.3.1 及更早版本尚无内置更新器，需先手动安装一次 M5.4。固定更新清单为 [latest.json](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/latest/download/latest.json)。
 
 ## 本版更新
 
-修复 M 炽拳之龙自身攻击、触发加攻并移动后，因离开原攻击范围而错误取消已宣言攻击的问题。现在移动后仍会对原目标继续结算，防御正常处理，费用不会重复扣除。
+新增主菜单／设置检查更新、启动自动检查；Windows 下载校验后安装重启，Android 通过浏览器下载覆盖安装，并保留对局保护。
 
-## 后续更新
+## 源码与素材说明
 
-当前 M5.3.1 尚未内置自动更新器。本仓库先建立固定下载渠道；客户端更新功能接入后，才能在游戏里检查及下载新版。`latest.json` 保存版本与下载信息，`SHA256SUMS.txt` 可用于核对安装包完整性。
+Windows 包包含本版 Godot 项目源码。公开副本会排除含本机临时图片路径、且不参与游戏运行的开发裁切脚本；游戏运行文件与本版构建一致。
 
-## 源码及素材说明
-
-Windows 便携包内包含本版 Godot 项目源码。第三方引擎、界面素材和卡图保留各自原有权利；本仓库不对第三方素材授予额外许可。
-
-此 Windows 下载是 M5.3.1 的公开发布副本，仅移除了不参与游戏运行、含本机临时图片路径的开发裁切脚本；游戏程序、源码、素材、许可证和启动器与已验证的同版本包一致。
-
-YGOMobile 界面资源的来源及 GPL-2.0 许可证见包内 `dungeon-dice-monsters/assets/ygomobile/SOURCES.md` 和 `LICENSE-GPL-2.0.txt`；Godot 许可证见 `tools/godot/GODOT_LICENSE.txt`。项目内编写的怪兽特效及参考说明见 `dungeon-dice-monsters/VFX_SOURCES.md`。
+第三方引擎、界面素材、卡图保留原有权利；本仓库不对第三方素材授予额外许可。YGOMobile 来源与 GPL-2.0 许可证见包内 `dungeon-dice-monsters/assets/ygomobile/SOURCES.md`、`LICENSE-GPL-2.0.txt`；Godot 许可证见 `tools/godot/GODOT_LICENSE.txt`。
