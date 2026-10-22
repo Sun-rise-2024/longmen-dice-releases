@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "version": "M5.3.1",
+  "version_code": 50301,
+  "build": "d7e2a4c3440f4ee1413940a2d0efedbb566ea7ff11dff4511594b8a1f5ed3fb2",
+  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.3.1",
+  "notes": "修复 M 炽拳自身攻击触发移动后，错误取消已宣言攻击的问题。",
+  "assets": {
+    "android": {
+      "name": "longmen-dice-M5.3.1-android.apk",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.3.1/longmen-dice-M5.3.1-android.apk",
+      "bytes": 127135110,
+      "sha256": "55e59c92fdd59899e2298decb62308c571ee00490f4fea73dcef4d044bf302aa"
+    },
+    "windows": {
+      "name": "longmen-dice-M5.3.1-windows.zip",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.3.1/longmen-dice-M5.3.1-windows.zip",
+      "bytes": 160241939,
+      "sha256": "41b2faab38c08579e31ebf879efa339ab8cbe3cc64ea4756ec05483677c3f69e"
+    }
+  }
+}
