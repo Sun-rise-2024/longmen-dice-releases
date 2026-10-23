@@ -1,2 +1,2 @@
-e89df983dbecbd3f410f3d4247d0242b4aba6baa2713d67085855bd086804d6c  longmen-dice-M5.4-android.apk
-c0e85d0fea2ebda458ea30957056c551fec22abc2a60c05858754f5b08731087  longmen-dice-M5.4-windows.zip
+111836682c001106e970b094be6501c0c296f513e529c15d763714bb58096777  longmen-dice-M5.5-android.apk
+1a56b7a25077c874aed079902c8c8374c0bbfe014fdda51263dca8990e9f91fb  longmen-dice-M5.5-windows.zip
