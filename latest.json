@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "version": "M5.5",
-  "version_code": 50500,
-  "build": "36493a3cd022a7e834764b397cb336a179ec53764c37aedb6eaf0f2750f3d534",
-  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.5",
-  "notes": "手机版新增屏幕自适应、大字号与大按钮、三档界面大小，重排菜单、构筑和响应窗口；棋盘支持双指缩放和平移。",
+  "version": "M5.6",
+  "version_code": 50600,
+  "build": "18873762a62f9675dd40150c62966a711957b1890fa6dd07dbce32a6ed3252a3",
+  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.6",
+  "notes": "安卓版支持在游戏内下载并校验新版 APK，直接唤起安卓系统的安装授权与确认，不再跳转浏览器；保留手机版屏幕适配和 Windows 更新。",
   "assets": {
     "android": {
-      "name": "longmen-dice-M5.5-android.apk",
-      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.5/longmen-dice-M5.5-android.apk",
-      "bytes": 127193143,
-      "sha256": "111836682c001106e970b094be6501c0c296f513e529c15d763714bb58096777"
+      "name": "longmen-dice-M5.6-android.apk",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.6/longmen-dice-M5.6-android.apk",
+      "bytes": 127205628,
+      "sha256": "a6d47f025696ebfad62e4a6a7f139541a527b80b832cd87f91d676eed66649e4"
     },
     "windows": {
-      "name": "longmen-dice-M5.5-windows.zip",
-      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.5/longmen-dice-M5.5-windows.zip",
-      "bytes": 160282369,
-      "sha256": "1a56b7a25077c874aed079902c8c8374c0bbfe014fdda51263dca8990e9f91fb"
+      "name": "longmen-dice-M5.6-windows.zip",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.6/longmen-dice-M5.6-windows.zip",
+      "bytes": 160296331,
+      "sha256": "d5355f41b116cf175ae967f9f0c2b592ee8da804c7af010146ba3b0d706b8d5c"
     }
   }
 }
