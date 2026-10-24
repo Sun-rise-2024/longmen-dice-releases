@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "version": "M5.6.1",
-  "version_code": 50601,
-  "build": "1b907739033ba77fd64675c306736102a8c9cdc6b4c6d99f3c0a35a41fb0f1db",
-  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.6.1",
-  "notes": "修复手机版从按钮、卡图和文字上无法滑动列表的问题，增加棋盘单指拖动平移，并区分拖动与轻点以避免误操作；保留游戏内更新。",
+  "version": "M5.7",
+  "version_code": 50700,
+  "build": "26f1ea7e53ae46b0f5a744b6c1ead66e4fded36bb3d6137f594cd9c378a8cb95",
+  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.7",
+  "notes": "改善手机切屏后的联机恢复；检查更新和下载安装包加入免配置备用线路，自动切换并验证发布签名与安装包完整性。",
   "assets": {
     "android": {
-      "name": "longmen-dice-M5.6.1-android.apk",
-      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.6.1/longmen-dice-M5.6.1-android.apk",
-      "bytes": 127214005,
-      "sha256": "372edc9471eb35c45f0bef4e9706b519f16630e5f694915c8759c3cb4f20ebc5"
+      "name": "longmen-dice-M5.7-android.apk",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7/longmen-dice-M5.7-android.apk",
+      "bytes": 127226742,
+      "sha256": "6ee60a143c9aef313b33f7b3444744da21a894c517bf8f3290b6a79738150a71"
     },
     "windows": {
-      "name": "longmen-dice-M5.6.1-windows.zip",
-      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.6.1/longmen-dice-M5.6.1-windows.zip",
-      "bytes": 160307657,
-      "sha256": "1aaea49a44ac11269371f38a6a5bf487ca0a41ffeafdfd69018d90d191bc9e26"
+      "name": "longmen-dice-M5.7-windows.zip",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7/longmen-dice-M5.7-windows.zip",
+      "bytes": 160321209,
+      "sha256": "e49b6bcb9e65537046e0355266ba6f18c45d1215b1e73cccd881f8912c23b54f"
     }
   }
 }

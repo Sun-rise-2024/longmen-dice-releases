@@ -2,25 +2,27 @@
 
 龙门骰的独立版本发布与更新仓库。
 
-## 下载 M5.6.1
+## 下载 M5.7
 
-- [Android 安装包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.6.1/longmen-dice-M5.6.1-android.apk)：下载后按系统提示覆盖安装。
-- [Windows 便携包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.6.1/longmen-dice-M5.6.1-windows.zip)：完整解压后双击 `START_GAME.cmd`，无需另外安装 Godot。
-- [全部版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases)；[M5.6 历史版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.6)。
+- [Android 安装包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7/longmen-dice-M5.7-android.apk)：下载后按系统提示覆盖安装。
+- [Windows 便携包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7/longmen-dice-M5.7-windows.zip)：完整解压后双击 `START_GAME.cmd`，无需另外安装 Godot。
+- Android 备用下载：[线路一](https://ghfast.top/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7/longmen-dice-M5.7-android.apk) / [线路二](https://gh-proxy.com/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7/longmen-dice-M5.7-android.apk)。
+- Windows 备用下载：[线路一](https://ghfast.top/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7/longmen-dice-M5.7-windows.zip) / [线路二](https://gh-proxy.com/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7/longmen-dice-M5.7-windows.zip)。
+- [全部版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases)；[M5.6.1 历史版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.6.1)。
 
 联机双方请使用同一版本。Windows 与 Android 可在网络地址彼此可达时联机。
 
-## 手机滑动操作
+## 手机联机与更新
 
-修复手机版从按钮、卡图和文字上无法滑动列表的问题，增加棋盘单指拖动平移，并区分拖动与轻点以避免误操作；保留游戏内更新。
+改善手机切屏后的联机恢复；检查更新和下载安装包加入免配置备用线路，自动切换并验证发布签名与安装包完整性。
 
-手机可在系统设置选择“界面大小”。列表可从按钮、卡图和文字上开始滑动。棋盘可单指拖动平移、双指缩放，轻点选格，召唤拖放及长按查看资料继续保留；“全图”按钮恢复整张棋盘。
+切屏时保留原对局、暂停双方操作，回到游戏后先核对进度再继续；连接已丢失时自动尝试恢复原座位。房主和加入者之间仍需保持网络地址可达。安卓强制结束进程或更换网络后可能需要手动重连。手机可在设置选择三档界面大小；列表可从按钮、卡图和文字上开始滑动，棋盘可单指平移、双指缩放。
 
 ## 自动检查与一键更新
 
 M5.4 起可在主菜单、设置中“检查更新”，启动时也会自动检查。Windows 下载并校验更新包后安装、重启；M5.6 起 Android 也会在游戏内下载并校验新版 APK，然后直接进入系统安装授权与确认；第一次需允许龙门骰安装应用。对局期间不会自动替换游戏文件。
 
-M5.6 可直接在游戏内更新到本版；M5.4、M5.5 升级到本版仍使用原有的浏览器下载流程。M5.3.1 及更早版本尚无内置更新器，需先手动安装新版。固定更新清单为 [latest.json](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/latest/download/latest.json)。
+M5.6、M5.6.1 可直接在游戏内更新到本版；M5.4、M5.5 升级到本版仍使用原有的浏览器下载流程。旧版没有备用线路，无法访问 GitHub 时需手动覆盖安装本版一次。M5.3.1 及更早版本也需先手动安装新版。M5.7 起使用 [签名清单](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/latest/download/latest.signed.json)，自动切换固定的备用传输线路；公共服务的可用性由所在网络与服务状态决定。原 [latest.json](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/latest/download/latest.json) 保留给旧更新器。
 
 ## 源码与素材说明
 
