@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "version": "M5.7.1",
-  "version_code": 50701,
-  "build": "9d1ca9c4590f2d3931330e27eab462ca35eae01c80ff857e026abeed5cf7698b",
-  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.7.1",
-  "notes": "修复手机菜单滑动与拖动误点击，扩大战斗棋盘，修复对战内骰子库空白。",
+  "version": "M5.7.2",
+  "version_code": 50702,
+  "build": "bc2bcfccc7aa69d252e7b29f81bb4a413b713db71b86118ca6208fb60a54842a",
+  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.7.2",
+  "notes": "手机怪兽操作按钮改为居中大纹章，移除文字和重复外框，保留原触控尺寸。",
   "assets": {
     "android": {
-      "name": "longmen-dice-M5.7.1-android.apk",
-      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.1/longmen-dice-M5.7.1-android.apk",
+      "name": "longmen-dice-M5.7.2-android.apk",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-android.apk",
       "bytes": 127226742,
-      "sha256": "4d060d6fb064432a27993ff0c5d3b9715cf49498f625fed0e8dfe2a71a4d8c64"
+      "sha256": "9c73a8aecfe7ea69c0f8e030052322da8e91461ee147b8b113ba28a0ab42e395"
     },
     "windows": {
-      "name": "longmen-dice-M5.7.1-windows.zip",
-      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.1/longmen-dice-M5.7.1-windows.zip",
-      "bytes": 160331964,
-      "sha256": "c4c7757712092a58dc87cc54ab256c045bd6317247894943a01553de0c04cf85"
+      "name": "longmen-dice-M5.7.2-windows.zip",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-windows.zip",
+      "bytes": 160332194,
+      "sha256": "043ea2272b392a20fe2161307ce4cd72ca9d8f4d17abce54aa460c8b7d06af13"
     }
   }
 }
