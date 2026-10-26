@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "version": "M5.7.2",
-  "version_code": 50702,
-  "build": "bc2bcfccc7aa69d252e7b29f81bb4a413b713db71b86118ca6208fb60a54842a",
-  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.7.2",
-  "notes": "手机怪兽操作按钮改为居中大纹章，移除文字和重复外框，保留原触控尺寸。",
+  "version": "M5.7.3",
+  "version_code": 50703,
+  "build": "53340c499aaa3e0d20e857f125ce7fe891764df675e7a35267c9530862e3afbf",
+  "release_url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.7.3",
+  "notes": "真装·天剑焰龙伤害改为10+5×X，天剑焰龙变身与三个形态主动效果费用各加1；加入自动对局录制，可按回合查看投骰和操作。",
   "assets": {
     "android": {
-      "name": "longmen-dice-M5.7.2-android.apk",
-      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-android.apk",
-      "bytes": 127226742,
-      "sha256": "9c73a8aecfe7ea69c0f8e030052322da8e91461ee147b8b113ba28a0ab42e395"
+      "name": "longmen-dice-M5.7.3-android.apk",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.3/longmen-dice-M5.7.3-android.apk",
+      "bytes": 127264352,
+      "sha256": "7b0fe252c1703be59e6f89cd16cc6dba80e7ec4957bf147f5bc97d8228ccd06a"
     },
     "windows": {
-      "name": "longmen-dice-M5.7.2-windows.zip",
-      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-windows.zip",
-      "bytes": 160332194,
-      "sha256": "043ea2272b392a20fe2161307ce4cd72ca9d8f4d17abce54aa460c8b7d06af13"
+      "name": "longmen-dice-M5.7.3-windows.zip",
+      "url": "https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.3/longmen-dice-M5.7.3-windows.zip",
+      "bytes": 160361494,
+      "sha256": "cd8e498e56dde8360748078ab7843361d74931063d7f80d269d5e2f3f455d426"
     }
   }
 }

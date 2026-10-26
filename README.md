@@ -2,19 +2,19 @@
 
 龙门骰的独立版本发布与更新仓库。
 
-## 下载 M5.7.2
+## 下载 M5.7.3
 
-- [Android 安装包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-android.apk)：下载后按系统提示覆盖安装。
-- [Windows 便携包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-windows.zip)：完整解压后双击 `START_GAME.cmd`，无需另外安装 Godot。
-- Android 备用下载：[线路一](https://ghfast.top/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-android.apk) / [线路二](https://gh-proxy.com/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-android.apk)。
-- Windows 备用下载：[线路一](https://ghfast.top/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-windows.zip) / [线路二](https://gh-proxy.com/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.2/longmen-dice-M5.7.2-windows.zip)。
-- [全部版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases)；[M5.7.1 历史版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.7.1)。
+- [Android 安装包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.3/longmen-dice-M5.7.3-android.apk)：下载后按系统提示覆盖安装。
+- [Windows 便携包](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.3/longmen-dice-M5.7.3-windows.zip)：完整解压后双击 `START_GAME.cmd`，无需另外安装 Godot。
+- Android 备用下载：[线路一](https://ghfast.top/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.3/longmen-dice-M5.7.3-android.apk) / [线路二](https://gh-proxy.com/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.3/longmen-dice-M5.7.3-android.apk)。
+- Windows 备用下载：[线路一](https://ghfast.top/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.3/longmen-dice-M5.7.3-windows.zip) / [线路二](https://gh-proxy.com/https://github.com/Sun-rise-2024/longmen-dice-releases/releases/download/M5.7.3/longmen-dice-M5.7.3-windows.zip)。
+- [全部版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases)；[M5.7.2 历史版本](https://github.com/Sun-rise-2024/longmen-dice-releases/releases/tag/M5.7.2)。
 
 联机双方请使用同一版本。Windows 与 Android 可在网络地址彼此可达时联机。
 
-## 手机操作与显示
+## 本版效果调整
 
-手机怪兽操作按钮改为居中大纹章，移除文字和重复外框，保留原触控尺寸。
+真装·天剑焰龙伤害改为10+5×X，天剑焰龙变身与三个形态主动效果费用各加1；加入自动对局录制，可按回合查看投骰和操作。
 
 切屏时保留原对局、暂停双方操作，回到游戏后先核对进度再继续；连接已丢失时自动尝试恢复原座位。房主和加入者之间仍需保持网络地址可达。安卓强制结束进程或更换网络后可能需要手动重连。手机可在设置选择三档界面大小；列表可从按钮、卡图和文字上开始滑动，棋盘可单指平移、双指缩放。
 
